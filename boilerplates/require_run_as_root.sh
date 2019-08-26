@@ -19,7 +19,7 @@ readonly SCRIPT_NAME=$(basename $0)
 usage () {
     cat << __EOS__
 Usage:
-    ${SCRIPT_NAME} [-h]
+    sudo ${SCRIPT_NAME} [-h]
 
 Description:
     sample for require run as root.
