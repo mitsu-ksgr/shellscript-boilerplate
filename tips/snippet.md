@@ -30,3 +30,9 @@ for n in $(seq -w 0 100); do
   wget -P ${dir} ${url}
 done
 ```
+
+### specify UserAgent
+```sh
+UA="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36"
+wget --user-agent="${UA}" http://example.com/hoge.tar.gz
+```
